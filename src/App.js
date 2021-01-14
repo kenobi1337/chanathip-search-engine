@@ -5,17 +5,18 @@ import {
 	Switch,
 	Route
 } from 'react-router-dom';
+import SearchPage from './pages/SearchPage';
 
 function App() {
 	return (
-		<div className='App'>
+		<div className="App">
 			<Router>
 				<Switch>
-					<Route path='/search'>
-						<h1>search page</h1>
+					<Route path="/search">
+						<SearchPage />
 					</Route>
 
-					<Route path='/'>
+					<Route path="/">
 						<Home />
 					</Route>
 				</Switch>
