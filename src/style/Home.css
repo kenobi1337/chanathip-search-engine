@@ -31,3 +31,18 @@
 .home__headerRight > .MuiSvgIcon-root {
 	margin-right: 20px;
 }
+
+.home__body {
+	flex: 1;
+	display: flex;
+	margin-top: 3.4%;
+	flex-direction: column;
+}
+
+.home__body > h1 {
+	object-fit: contain;
+	height: 50px;
+	font-size: 45px;
+	text-align: center;
+	color: green;
+}
