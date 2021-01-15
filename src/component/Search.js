@@ -23,7 +23,7 @@ function Search({ hideButtons = false }) {
 			type: actionTypes.SET_SEARCH_TERM,
 			term: input
 		});
-
+		setInput('');
 		// do search with input
 		history.push('/search');
 	};
